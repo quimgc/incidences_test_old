@@ -130,13 +130,13 @@ return [
     | Autoloaded Service Providers
     |--------------------------------------------------------------------------
     |
-    | The service providers listed here will be automatically loaded on the
+    | The service Providers listed here will be automatically loaded on the
     | request to your application. Feel free to add your own services to
     | this array to grant expanded functionality to your applications.
     |
     */
 
-    'providers' => [
+    'Providers' => [
 
         /*
          * Laravel Framework Service Providers...
@@ -177,6 +177,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Quimgc\Incidences\Providers\IncidencesServiceProvider::class,
 
         /*
          * Application Service Providers...

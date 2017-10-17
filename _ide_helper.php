@@ -341,7 +341,7 @@ namespace Illuminate\Support\Facades {
         }
         
         /**
-         * Register all of the configured providers.
+         * Register all of the configured Providers.
          *
          * @return void 
          * @static 
@@ -390,7 +390,7 @@ namespace Illuminate\Support\Facades {
         }
         
         /**
-         * Load and boot all of the remaining deferred providers.
+         * Load and boot all of the remaining deferred Providers.
          *
          * @return void 
          * @static 
@@ -466,7 +466,7 @@ namespace Illuminate\Support\Facades {
         }
         
         /**
-         * Boot the application's service providers.
+         * Boot the application's service Providers.
          *
          * @return void 
          * @static 
@@ -637,7 +637,7 @@ namespace Illuminate\Support\Facades {
         }
         
         /**
-         * Get the service providers that have been loaded.
+         * Get the service Providers that have been loaded.
          *
          * @return array 
          * @static 
